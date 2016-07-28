@@ -15,9 +15,9 @@ And in any case, I'm pretty sure everyone has done stocks at this point. Figured
 Yes, this turned out to work pretty well. When trained and tested on train/test subsets of the Bundesbank gold price dataset from Jan 1st, 1950 - Jun 6th, 2014 (included in this repo), the model achieved an average error of about 6 dollars. You can run the test yourself, too. Just clone the repo, cd into it, and run python test_model.py - it even generates a pretty normalized graph.
 
 ##Resources + further reading
-Check out (http://machinelearningmastery.com/time-series-prediction-lstm-recurrent-neural-networks-python-keras/)[this tutorial] to see the base code from which I built the model. Also click (https://github.com/datasets/gold-prices)[here] for the github repo which has the data I used to train and test. 
+Check out [this tutorial](http://machinelearningmastery.com/time-series-prediction-lstm-recurrent-neural-networks-python-keras/) to see the base code from which I built the model. Also click [here](https://github.com/datasets/gold-prices) for the github repo which has the data I used to train and test. 
 
-Here's an article on gold prices and what moves them
+And click [here](http://www.investopedia.com/articles/active-trading/031915/what-moves-gold-prices.asp) to access an article on gold prices and what affects them.
 
 
 
