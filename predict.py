@@ -1,4 +1,4 @@
-import pandas, numpy
+import pandas, numpy, sys
 from keras.models import Sequential
 from keras.layers import Dense, LSTM
 from sklearn.preprocessing import MinMaxScaler
@@ -57,5 +57,14 @@ class Predict:
         print(scaler.inverse_transform(model.predict(numpy.array(inp).reshape(1, 1, 5))))
 
 
-x = Predict()
-x.predict_new([1243.068, 1298.713, 1336.560, 1299.175, 1288.913])
+# x = Predict()
+# x.predict_new([1243.068, 1298.713, 1336.560, 1299.175, 1288.913])
+
+def main():
+    inptarr = [sys.argv[1], sys.argv[2], sys.argv[3], sys.argv[4], sys.argv[5]]
+    x = Predict()
+    x.predict_new(inptarr)
+
+
+if __name__ == "__main__":
+    main()
