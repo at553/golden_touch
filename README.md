@@ -1,4 +1,4 @@
-# golden_forecasting
+# golden_touch
 Predict the price of gold using sequence generation via ANNs with LSTM neurons
 
 ## Overview
