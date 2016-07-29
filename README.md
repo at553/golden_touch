@@ -23,7 +23,7 @@ The blue line is the original dataset, the green is the training subset used to 
 
 
 ## How to run
-Clone the repo, cd into the directory, and run python predict.py with 5 system arguments, representing the gold price, in dollars, on the first day of each of the five preceding months, in chronological order. 
+Clone the repo, cd into the root, and run python predict.py with 5 system arguments, representing the gold price, in dollars, on the first day of each of the five preceding months, in chronological order. 
 
 Example: "python predict.py 1243.068 1298.713 1336.560 1299.175 1288.913"
 
